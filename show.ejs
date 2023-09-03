@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post in Details</title>
+    <style>
+        body {
+            background-color: azure;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            height: 70vh;
+            margin: 0;
+        }
+
+        .post {
+            background-color: gray;
+            color: white;
+
+        }
+
+        h2 {
+            color: black;
+            font-weight: 700;
+        }
+
+        p {
+            background-color: white;
+        }
+
+        .container {
+            width: 50%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>HERE IS YOUR POST</h2>
+        <p>Post id:<%=post.id%>
+        </p>
+        <div class="post">
+            <h3 class="user">
+                <%=post.username%>
+            </h3>
+            <h4 class="content">
+                <%=post.content%>
+            </h4>
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>

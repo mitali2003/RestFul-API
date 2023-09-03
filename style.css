@@ -1,0 +1,63 @@
+h1 {
+  color: maroon;
+  background-color: white;
+  border: 2px solid #333;
+  padding: 10px;
+  text-align: center;
+}
+.user {
+  font-style: italic;
+}
+.post {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.user {
+  font-style: italic;
+  color: #333;
+  font-weight: bold;
+}
+
+.content {
+  margin-top: 10px;
+}
+button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: #c82333;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v1016-c-08_1-ksh6mza3.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=f584d8501c27c5f649bc2cfce50705c0");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.create-post-link {
+  display: block;
+  text-align: center;
+  /* margin-top: 10px; */
+  color: white;
+  background-color: rgb(117, 117, 216);
+  height: 60px;
+  padding: 5px;
+  text-align: center;
+}
